@@ -16,12 +16,12 @@ class Recipes
         description: 'kjh', 
         ingredients: 'test', 
         time: 'Less than 5 minutes!', 
-        directions: ''
+        directions: 'hello'
         ),
       Recipe.new(id: 3, 
         name: 'Old Fashioned', 
         description: 'mkjhg', 
-        ingredients: '', 
+        ingredients: 'heloe', 
         time: 'kh', 
         directions: 'test')
     ]
