@@ -1,0 +1,22 @@
+<h3>We are just getting started but here is a list of items we sell.</h3>
+
+<form role="search">
+  <input type="text" name="search" value="<%= @search %>" placeholder="Search">
+  <button type="submit">Submit</button>
+  <button type="reset"
+          onclick="window.location.href='/items'">Reset</button>
+</form>
+
+
+<h4>Here are the drinks in an unordered list</h4>
+
+<ul>
+  <% @drinksall.each do |item| %>
+  <li>
+    <a href="drinksall/<%= item.id %>">
+      <span><%= item.name %> - </span>
+      <span><%= item.description %> - </span>
+    </a>
+  </li>
+  <% end %>
+</ul>
