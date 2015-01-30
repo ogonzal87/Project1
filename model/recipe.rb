@@ -1,6 +1,6 @@
 class Recipe
 
-  attr_reader :id, :name, :description, :ingredients, :time, :directions
+  attr_reader :id, :name, :description, :ingredients, :time, :directions, :image_file
 
   def initialize(args)
     @id           = args[:id]
@@ -9,6 +9,7 @@ class Recipe
     @ingredients  = args[:ingredients]
     @time         = args[:time]
     @directions   = args[:directions]
+    @image_file   = args[:image_file]
   end
 
   def to_s
