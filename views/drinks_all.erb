@@ -1,0 +1,18 @@
+<<a href="http://www.google.com">Hola</a>
+
+<h3>We are just getting started but here is a list of items we sell.</h3>
+
+<h4>Here are the items in an unordered list</h4>
+<ul>
+  <% @drinksall.each do |item| %>
+  <li>
+    <a href="items/<%= item.id %>">
+      <span><%= item.category %> - </span>
+      <span><%= item.name %> - </span>
+      <span>$<%= item.price %></span>
+    </a>
+  </li>
+  <% end %>
+</ul>
+
+<hr>

@@ -1,3 +1,4 @@
+# This class represents a single Item you can purchase in the store. 
 class Recipe
 
   attr_reader :id, :name, :description, :ingredients, :time, :directions
