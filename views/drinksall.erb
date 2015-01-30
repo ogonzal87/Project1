@@ -1,11 +1,22 @@
-<h3>We are just getting started but here is a list of items we sell.</h3>
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <form role="search">
+    <input type="text" name="search" value="<%= @search %>" placeholder="Search">
+    <button type="submit">Submit</button>
+    <button type="reset"
+            onclick="window.location.href='/drinksall'">Reset</button>
+    </form>
+  </div>
+  <div class="col-md-4"></div>
+</div>
 
-<form role="search">
-  <input type="text" name="search" value="<%= @search %>" placeholder="Search">
-  <button type="submit">Submit</button>
-  <button type="reset"
-          onclick="window.location.href='/drinksall'">Reset</button>
-</form>
+
+
+
+
+
+
 
 
 <h4>Here are the items in an unordered list</h4>
