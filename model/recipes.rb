@@ -9,13 +9,15 @@ class Recipes
         description: 'jjh', 
         ingredients: 'test', 
         time: 'djh', 
-        directions: 'test'),
+        directions: 'test'
+        ),
       Recipe.new(id: 2, 
         name: 'Side Car', 
         description: 'kjh', 
         ingredients: 'test', 
         time: 'Less than 5 minutes!', 
-        directions: ''),
+        directions: ''
+        ),
       Recipe.new(id: 3, 
         name: 'Old Fashioned', 
         description: 'mkjhg', 
@@ -26,7 +28,7 @@ class Recipes
   end
 
   def self.find(id)
-    self.all.find do |item|
+    all.find do |item|
       item.id == id
     end
   end
@@ -37,4 +39,5 @@ class Recipes
       item.description.downcase.include?(pattern.downcase)
     end
   end
+
 end
