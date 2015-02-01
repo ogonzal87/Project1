@@ -1,7 +1,6 @@
 require 'sinatra'
 require_relative './model/recipes'
 
-
 get '/' do
 	erb :home
 end
@@ -21,3 +20,6 @@ get '/drinksall/:id' do
 	erb :drink
 end
 
+get '/about' do
+  erb :about
+end

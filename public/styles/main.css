@@ -7,10 +7,10 @@
 }
 
 .jumbotron {
-  padding: 30px 15px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #303030;
+  	padding: 30px 15px;
+  	margin-bottom: 30px;
+  	color: inherit;
+  	background-color: #303030;
 }
 
 .navbar-brand {
@@ -32,7 +32,7 @@ body {
 }
 
 .navbar-default .navbar-brand {
-color: black;
+	color: black;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -70,22 +70,32 @@ color: black;
 	border-color: black;
 }
 
-a.list-group-item {
-color: #edce69;
+.list-group-item {
+
 }
 
+a.list-group-item {
+	color: #edce69;
+ }
 
+/*ABOUT PAGE*/
 
+img {
+width: 256px;
+height: 256px;
+padding: 5% 0 0 5%;
+margin-bottom: 2em;
+text-align: center;
+}
 
+.aboutsection {
+	max-width: 980px;
+	padding: 5% 5% 0 0;
+}
 
-
-
-
-
-
-
-
-
+#aboutp {
+	font-size: large;
+}
 
 
 

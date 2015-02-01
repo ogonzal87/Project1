@@ -12,20 +12,15 @@
 
 <section class="container">
   <div class="list-group">
-    <div class="row">
-    <% @drinks.each do |item| %>
-      <div class="col-md-4">
-        <a href="drinksall/<%= item.id %>" class="list-group-item">
-          <h3><%= item.name %></h3>
-          <article class="row">
-            <div class="col-xs-5 image">
-              <img class="middle" width=300px src="/images/<%= item.image_file %>"/>
-            </div>
-            
-          </article>
-        </a>
-      </div>
-    <% end %>
+    <div class="row drinks">
+      <% @drinks.each do |item| %>
+        <div class="col-md-4">
+          <a href="drinksall/<%= item.id %>" class="list-group-item">
+            <h3><%= item.name %></h3>
+              <img class="middle" width=300px height=300px src="/images/<%= item.image_file %>"/>       
+          </a>
+        </div>
+      <% end %>
     </div>
   </div>
 </section>
