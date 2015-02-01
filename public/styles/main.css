@@ -36,16 +36,16 @@ color: black;
 }
 
 .navbar-default .navbar-nav>li>a {
-color: black;
-padding-top: 25px;
-padding-bottom: 19.5px;
-padding-right: 50px;
+	color: black;
+	padding-top: 25px;
+	padding-bottom: 19.5px;
+	padding-right: 50px;
 }
 
 .btn-primary {
-color: black;
-background-color: #edce69;
-border-color: black;
+	color: black;
+	background-color: #edce69;
+	border-color: black;
 }
 
 /*HOME PAGE*/
@@ -58,8 +58,52 @@ border-color: black;
 
 /*DRINKS ALL*/
 
-.btn-default {
-color: black;
-background-color: #edce69;
-border-color: black;
+.searchbar {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 2%;
 }
+
+.btn-default {
+	color: black;
+	background-color: #edce69;
+	border-color: black;
+}
+
+a.list-group-item {
+color: #edce69;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
