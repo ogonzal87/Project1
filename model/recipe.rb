@@ -1,3 +1,5 @@
+# This class describes a single recipe and its characteristics. 
+
 class Recipe
 
   attr_reader :id, :name, :description, :ingredients, :time, :directions, :image_file
