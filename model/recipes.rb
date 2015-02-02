@@ -1,5 +1,7 @@
 require_relative './recipe'
 
+# This class outlines all of the recipes we have on file
+
 class Recipes
 
   def self.all
